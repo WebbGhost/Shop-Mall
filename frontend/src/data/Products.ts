@@ -1,0 +1,53 @@
+import { Product } from '../types/Product';
+
+export const Products: Product[] = [
+    {
+        name: 'The High Kings',
+        slug: 'the-high-kings',
+        brand: 'addidas',
+        category: 'cloths',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO0tK4BqagZfGUUl3OL_1J-5jGm4knpZZkUQ&usqp=CAU',
+        countInStock: 4,
+        description: 'The amazing shirt for boys',
+        price: 100,
+        rating: 3,
+        numReview: 5,
+    },
+    {
+        name: 'The brown pant',
+        slug: 'the-high-kings',
+        brand: 'addidas',
+        category: 'cloths',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHMX--s8YA6kjPlR3GIFHXwIX5LGhNZ2_now&usqp=CAU',
+        countInStock: 4,
+        description: 'The amazing shirt for boys',
+        price: 100,
+        rating: 3,
+        numReview: 5,
+    },
+    {
+        name: 'The Blue Snaker',
+        slug: 'the-high-kings',
+        brand: 'addidas',
+        category: 'cloths',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1eifg73dBnUR8qM29W4H7iXk9NCRskq67KQ&usqp=CAU',
+        countInStock: 4,
+        description: 'The amazing shirt for boys',
+        price: 100,
+        rating: 3,
+        numReview: 5,
+    },
+    {
+        name: 'The Green Bag',
+        slug: 'the-high-kings',
+        brand: 'addidas',
+        category: 'cloths',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxN1HlNuwsoIc11zvQHUGZYYVpvOSHEGatg&usqp=CAU',
+        countInStock: 4,
+        description: 'The amazing shirt for boys',
+        price: 100,
+        rating: 3,
+        numReview: 5,
+    },
+];
+export const Reviews = [{}];
